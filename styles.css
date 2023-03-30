@@ -58,6 +58,8 @@ body {
    color: #fff;
    text-align: center;
    font-size: 1.5em;
+  width: 200px;
+  height: 150px;
   }
   
   .container .card .face .face1 .content h3 {
