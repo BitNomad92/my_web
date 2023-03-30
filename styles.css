@@ -20,8 +20,7 @@ ul
     flex-direction: column;
     gap: 10px;
 }
-ul li
-{
+ul li {
     list-style: none;
     text-align: center;
     color: #333;
@@ -32,8 +31,8 @@ ul li
     transition: 0.5s;
     cursor: pointer;
     border-radius: 10px;
-    text-align: center;
     -webkit-text-stroke: 1px #fff;
+    position: relative; /* Añade esta línea para establecer la posición relativa */
 }
 ul:hover li
 {
@@ -77,17 +76,16 @@ ul li:hover::before
     letter-spacing: 10px;
     -webkit-text-stroke: 0px #fff;
 }
-ul li:nth-last-child(1)::before
-{
-    background: linear-gradient(#ff9a33 0%,#ff9a33 33%,#fff 33%,#fff 66%,#138807 66%,#138807 100%);
+ul li:nth-child(1)::before {
+    background: linear-gradient(150deg, #A51C30 33.33%, #FDD85A 33.33%, #FDD85A 66.67%, #A51C30 66.67%);
 }
-ul li:nth-last-child(2)::before
-{
-    background: linear-gradient(#005bbc,#005bbc 50%,#ffd600 50%,#ffd600 100%);
+
+ul li:nth-child(2)::before {
+    background: linear-gradient(150deg, #FFCD00 50%, #F80001 50%);
 }
-ul li:nth-last-child(3)::before
-{
-    background: linear-gradient(#ffffff 0%,#ffffff 33%,#0039a6 33%,#0039a6 66%,#d52b1e 66%,#b52b1e 100%);
+
+ul li:nth-child(3)::before {
+    background: linear-gradient(150deg, #AA151B 25%, #F1C232 25%, #F1C232 50%, #009246 50%, #009246 75%, #1D4B8C 75%);
 }
 
 .iframe-container {
