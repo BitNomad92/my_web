@@ -46,6 +46,13 @@ ul:hover li
     -webkit-text-stroke: 0px #fff;
     box-shadow: 0 5px 15px rgba(0,0,0,0.075);
 }
+ul:hover li:nth-child(1) {
+  font-size: 1.5em;
+}
+ul:hover li:nth-child(2) {
+  font-size: 1.5em;
+}
+
 ul li::before
 {
     content: ´´;
@@ -75,13 +82,7 @@ ul li:hover::before
     left: 50%;
     letter-spacing: 10px;
     -webkit-text-stroke: 0px #fff;
-}
-ul li:nth-child(1) {
-  font-size: .75em;
-}
-ul li:nth-child(2) {
-  font-size: 0.75em;
-}
+
 
 /* Bandera de Tailandia */
 ul li:nth-child(1)::before {
