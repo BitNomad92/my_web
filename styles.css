@@ -46,6 +46,10 @@ body {
   .container .card .face .face1 .content {
     opacity: 0.2;
     transition: 0.5s;
+      .container .card .face .face1 .content {
+  background-size: cover;
+  background-position: center;
+}
   }
   
   .container .card:hover .face .face1 .content {
