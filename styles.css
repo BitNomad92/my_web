@@ -77,25 +77,25 @@ ul li:hover::before
     -webkit-text-stroke: 0px #fff;
 }
 ul li:nth-child(1) {
-  font-size: 1.5em;
+  font-size: .75em;
 }
 ul li:nth-child(2) {
-  font-size: 1.5em;
+  font-size: 0.75em;
 }
 
 /* Bandera de Tailandia */
 ul li:nth-child(1)::before {
-    background: linear-gradient(180deg, #A51C30 20%, #FFFFFF 20%, #FFFFFF 40%, #003580 40%, #003580 60%, #FFFFFF 60%, #FFFFFF 80%, #A51C30 80%);
+    background: linear-gradient(0deg, #A51C30 20%, #FFFFFF 20%, #FFFFFF 40%, #003580 40%, #003580 60%, #FFFFFF 60%, #FFFFFF 80%, #A51C30 80%);
 }
 
 /* Bandera de Indonesia */
 ul li:nth-child(2)::before {
-    background: linear-gradient(180deg, #FF0000 50%, #FFFFFF 50%);
+    background: linear-gradient(0deg, #FF0000 50%, #FFFFFF 50%);
 }
 
 /* Bandera de España */
 ul li:nth-child(3)::before {
-    background: linear-gradient(180deg, #C60B1E 25%, #FFC400 25%, #FFC400 50%, #AA151B 50%, #AA151B 75%, #1D4B8C 75%);
+    background: linear-gradient(0deg, #C60B1E 25%, #FFC400 25%, #FFC400 50%, #AA151B 50%, #AA151B 75%, #1D4B8C 75%);
 }
 
 
