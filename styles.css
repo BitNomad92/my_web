@@ -46,8 +46,6 @@ body {
   .container .card .face .face1 .content {
     opacity: 0.2;
     transition: 0.5s;
-  background-size: cover;
-  background-position: center;
 }
   }
   
@@ -55,15 +53,17 @@ body {
     opacity: 1;
   }
   
-  .container .card .face .face1 .content img {
-   margin: 10px 0 0;
-   padding: 0;
-   color: #fff;
-   text-align: center;
-   font-size: 1.5em;
-  width: 15%;
-  height: 20%;
-  }
+.container .card .face .face1 .content img {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
   
   .container .card .face .face1 .content h3 {
     font-size: 1.5em;
