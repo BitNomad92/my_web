@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:'Poppins', sans-serif;
+    font-family: verdana;
 }
 body
 {
@@ -92,14 +92,12 @@ ul li:nth-child(3)::before {
 }
 
 
-.iframe-container {
-    position: relative;
-    width: 80%;
-    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
-    height: 0;
-    overflow: hidden;
-    margin: 0 auto;
+.iframe-container iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .iframe-container iframe {
     position: absolute;
