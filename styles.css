@@ -94,9 +94,10 @@ ul li:nth-child(2)::before {
 }
 
 /* Bandera de España */
-ul li:nth-child(3)::before {
-    background: linear-gradient(0deg, #C60B1E 25%, #FFC400 25%, #FFC400 50%, #AA151B 50%, #AA151B 75%, #1D4B8C 75%);
+ul li:nth-child(2)::before {
+    background: linear-gradient(0deg, #FF0000 33.33%, #FCD116 33.33%, #FCD116 66.67%, #FF0000 66.67%);
 }
+
 
 
 .iframe-container iframe {
